@@ -1,2 +1,2 @@
-# _test_takalab_cognitive_experiment
-This is a test for migrating the cognitive experiments of takalab from manual management via the AWS Console to management using Terraform.
+# 概要
+高橋研の認知実験で使用しているAWSリソースをTerraformで管理できるようにするためのリポジトリです。
