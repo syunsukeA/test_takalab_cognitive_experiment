@@ -6,10 +6,9 @@ terraform {
       version = "~> 5.0"
     }
   }
-  backend "remote" {
-    hostname = "app.terraform.io"
+  cloud {
     organization = "takalab"
-
+    
     workspaces {
       name = "test_takalab_cognitive_experiment"
     }
